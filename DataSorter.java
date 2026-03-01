@@ -106,7 +106,7 @@ public class DataSorter {
         System.out.println("\nSorted Output (Quick Sort):");
         printArray(quickArr);
 
-        System.out.println("\n===== Performance Comparison=====");
+        System.out.println("\n===== Performance Comparison (Nanoseconds) =====");
         System.out.printf("%-15s %-20s\n", "Algorithm", "Execution Time");
         System.out.printf("%-15s %-20d\n", "Bubble Sort", bubbleTime);
         System.out.printf("%-15s %-20d\n", "Merge Sort", mergeTime);
